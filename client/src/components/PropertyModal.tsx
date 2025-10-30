@@ -1,5 +1,6 @@
-import { X, Home, BedDouble, Bath, MapPin } from "lucide-react";
+import { X, Home, BedDouble, Bath, MapPin, Phone, Mail } from "lucide-react";
 import { Dialog, DialogContent, DialogHeader } from "@/components/ui/dialog";
+import { Button } from "@/components/ui/button";
 
 interface PropertyModalProps {
   isOpen: boolean;
@@ -98,13 +99,25 @@ export default function PropertyModal({ isOpen, onClose, property }: PropertyMod
                 </p>
               </div>
               
-              <button 
-                className="w-full bg-primary text-primary-foreground font-medium py-3 rounded-md hover-elevate active-elevate-2 transition-all"
-                data-testid="button-contact"
-                onClick={() => console.log('Contact button clicked')}
-              >
-                Richiedi Informazioni
-              </button>
+              <div className="flex gap-3">
+                <Button 
+                  className="flex-1"
+                  onClick={() => console.log('Call button clicked for property:', property.id)}
+                  data-testid="button-modal-call"
+                >
+                  <Phone className="h-4 w-4 mr-2" />
+                  Chiama
+                </Button>
+                <Button 
+                  variant="outline"
+                  className="flex-1"
+                  onClick={() => console.log('Email button clicked for property:', property.id)}
+                  data-testid="button-modal-email"
+                >
+                  <Mail className="h-4 w-4 mr-2" />
+                  E-mail
+                </Button>
+              </div>
             </div>
           </div>
         </div>

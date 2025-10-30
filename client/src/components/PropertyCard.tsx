@@ -1,5 +1,6 @@
-import { Home, BedDouble, Bath } from "lucide-react";
+import { Home, BedDouble, Bath, Phone, Mail } from "lucide-react";
 import { Card } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 
 interface PropertyCardProps {
   id: string;
@@ -68,6 +69,35 @@ export default function PropertyCard({
           <p className="text-xl font-semibold text-foreground" data-testid={`text-price-${id}`}>
             €{price.toLocaleString('it-IT')}
           </p>
+        </div>
+        
+        <div className="flex gap-2">
+          <Button 
+            size="sm" 
+            variant="outline" 
+            className="flex-1"
+            onClick={(e) => {
+              e.stopPropagation();
+              console.log('Call button clicked for property:', id);
+            }}
+            data-testid={`button-call-${id}`}
+          >
+            <Phone className="h-4 w-4 mr-1.5" />
+            Chiama
+          </Button>
+          <Button 
+            size="sm" 
+            variant="outline" 
+            className="flex-1"
+            onClick={(e) => {
+              e.stopPropagation();
+              console.log('Email button clicked for property:', id);
+            }}
+            data-testid={`button-email-${id}`}
+          >
+            <Mail className="h-4 w-4 mr-1.5" />
+            E-mail
+          </Button>
         </div>
       </div>
     </Card>

@@ -1,9 +1,11 @@
 import { useState } from "react";
 import Header from "@/components/Header";
+import Hero from "@/components/Hero";
 import PropertyCard from "@/components/PropertyCard";
 import PropertyModal from "@/components/PropertyModal";
 import type { Property } from "@shared/schema";
 
+import heroImg from '@assets/generated_images/Luxury_real_estate_hero_image_f74205f0.png';
 import img1 from '@assets/generated_images/Modern_luxury_apartment_interior_1403a18c.png';
 import img2 from '@assets/generated_images/Contemporary_penthouse_living_room_d73103dd.png';
 import img3 from '@assets/generated_images/Elegant_villa_with_pool_92c6abe8.png';
@@ -118,6 +120,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-background">
       <Header />
+      <Hero imageUrl={heroImg} />
       
       <main className="max-w-7xl mx-auto px-6 py-12">
         <div className="mb-12">
