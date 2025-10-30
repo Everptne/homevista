@@ -6,7 +6,7 @@ import PropertyCard from "@/components/PropertyCard";
 import PropertyModal from "@/components/PropertyModal";
 import type { Property } from "@shared/schema";
 
-import heroImg from '@assets/generated_images/Luxury_real_estate_hero_image_f74205f0.png';
+import heroImg from '@assets/generated_images/Sicily_coastal_panoramic_view_46f7d415.png';
 import img1 from '@assets/generated_images/Modern_luxury_apartment_interior_1403a18c.png';
 import img2 from '@assets/generated_images/Contemporary_penthouse_living_room_d73103dd.png';
 import img3 from '@assets/generated_images/Elegant_villa_with_pool_92c6abe8.png';
