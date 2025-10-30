@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import Footer from "@/components/Footer";
 import PropertyCard from "@/components/PropertyCard";
 import PropertyModal from "@/components/PropertyModal";
 import type { Property } from "@shared/schema";
@@ -148,6 +149,8 @@ export default function Home() {
         onClose={() => setSelectedProperty(null)}
         property={selectedProperty}
       />
+      
+      <Footer />
     </div>
   );
 }
