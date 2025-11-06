@@ -20,7 +20,7 @@ const mockProperties: Property[] = [
   {
     id: "1",
     title: "Appartamento Moderno",
-    zone: "Centro Storico",
+    zone: "Palermo - Centro Storico",
     squareMeters: 120,
     bedrooms: 3,
     bathrooms: 2,
@@ -32,7 +32,7 @@ const mockProperties: Property[] = [
   {
     id: "2",
     title: "Attico di Lusso",
-    zone: "Quartiere Residenziale",
+    zone: "Palermo - Quartiere Residenziale",
     squareMeters: 180,
     bedrooms: 4,
     bathrooms: 3,
@@ -44,7 +44,7 @@ const mockProperties: Property[] = [
   {
     id: "3",
     title: "Villa con Piscina",
-    zone: "Collina Panoramica",
+    zone: "Palermo - Collina Panoramica",
     squareMeters: 350,
     bedrooms: 5,
     bathrooms: 4,
@@ -56,7 +56,7 @@ const mockProperties: Property[] = [
   {
     id: "4",
     title: "Loft Industriale",
-    zone: "Zona Portuale",
+    zone: "Palermo - Zona Portuale",
     squareMeters: 140,
     bedrooms: 2,
     bathrooms: 2,
@@ -68,7 +68,7 @@ const mockProperties: Property[] = [
   {
     id: "5",
     title: "Appartamento Vista Mare",
-    zone: "Lungomare",
+    zone: "Palermo - Lungomare",
     squareMeters: 110,
     bedrooms: 2,
     bathrooms: 2,
@@ -80,7 +80,7 @@ const mockProperties: Property[] = [
   {
     id: "6",
     title: "Appartamento Scandinavo",
-    zone: "Quartiere Verde",
+    zone: "Palermo - Quartiere Verde",
     squareMeters: 95,
     bedrooms: 2,
     bathrooms: 1,
@@ -92,7 +92,7 @@ const mockProperties: Property[] = [
   {
     id: "7",
     title: "Townhouse Contemporanea",
-    zone: "Zona Urbana",
+    zone: "Palermo - Zona Urbana",
     squareMeters: 160,
     bedrooms: 3,
     bathrooms: 3,
@@ -104,7 +104,7 @@ const mockProperties: Property[] = [
   {
     id: "8",
     title: "Duplex di Prestigio",
-    zone: "Centro Direzionale",
+    zone: "Palermo - Centro Direzionale",
     squareMeters: 200,
     bedrooms: 4,
     bathrooms: 3,
