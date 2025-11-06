@@ -32,7 +32,7 @@ const mockProperties: Property[] = [
   {
     id: "2",
     title: "Attico di Lusso",
-    zone: "Palermo - Quartiere Residenziale",
+    zone: "Cefalù - Quartiere Residenziale",
     squareMeters: 180,
     bedrooms: 4,
     bathrooms: 3,
