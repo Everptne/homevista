@@ -83,7 +83,7 @@ export default function PropertyCard({
             data-testid={`button-call-${id}`}
           >
             <Phone className="h-4 w-4 mr-1.5" />
-            Chiama
+            Whatsapp
           </Button>
           <Button 
             size="sm" 
